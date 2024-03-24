@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace api.Models
 {
-    public class RoomPlayer
+    public class TablePlayer
     {
         public int Id { get; set; }
 
@@ -13,13 +13,12 @@ namespace api.Models
 
         //relationships
         public string AppUserId { get; set; }
-
         public int RoomId { get; set; }
 
         //navigation property
         public AppUser AppUser { get; set; }
 
-        public Room Room { get; set; }
+        public Table Table { get; set; }
 
     }
 }

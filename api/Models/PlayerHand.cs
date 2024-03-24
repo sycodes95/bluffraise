@@ -10,6 +10,7 @@ namespace api.Models
         public int MyProperty { get; set; }
         public string CardOne { get; set; } = string.Empty;
         public string CardTwo { get; set; } = string.Empty;
+        public bool IsActive { get; set; } = true;
         public int RoomPlayerId { get; set; }
 
     }

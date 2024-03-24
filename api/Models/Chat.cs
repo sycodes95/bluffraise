@@ -9,7 +9,6 @@ namespace api.Models
     {
         // pk
         public int Id { get; set; }
-
         // fields
         public string Message { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; } = DateTime.Now;
@@ -19,7 +18,7 @@ namespace api.Models
         public int RoomId { get; set; }
 
         // Navigation Props
-        public Room Room { get; set; }
+        public Table Table { get; set; }
         public AppUser AppUser { get; set; }
 
     }

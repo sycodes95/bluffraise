@@ -16,7 +16,6 @@ namespace api.Models
         public int Amount { get; set; }
 
         public BetType Type { get; set; }
-
     }
 
     public enum BetType
